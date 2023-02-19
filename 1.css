@@ -1,0 +1,131 @@
+
+@font-face  {
+    font-family: 'Avangard-Regular';
+    src: url('../fonts/Avangard-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-family: 'OpenSans-Regular';
+
+}
+
+@font-face  {
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+    font-family: 'OpenSans-ExtraBold';
+
+
+}
+
+@font-face  {
+    src: url('../fonts/OpenSans-Italic.ttf');
+    font-family: 'OpenSans-Italic';
+
+
+}
+
+@font-face {
+    src: url('../fonts/AcariSans-Regular.ttf');
+    font-family: 'AcariSans-Regular';
+
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.head-text {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+a {
+    color: #a16101;
+}
+.head-text a {
+    padding-right: 10px;
+
+}
+
+.header-link{
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+.town-text{
+    font-style: italic;
+}
+.prof-text{
+    font-weight: bold;
+}
+
+.aside{
+    margin-top: 100px;
+    width: 600px;
+}
+
+.image{
+    display: block;
+    margin-left: 230px;
+    margin-right: 10px;
+    flex-direction: row;
+    text-align: center;
+    border: solid;
+    border-color: #555555;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+
+.contacts{
+    margin-left: 240px;
+}
+
+.name-text{
+    display: flex;
+    width: 500px;
+    margin-left: 20px;
+    margin-right:50px
+    font-family: 'Avangard-Regular', Arial, Helvetica, sans-serif;
+    color: #332323;
+    font-size: 25px;
+
+}
+
+
+h1, h2{
+    font-family: 'OpenSans-Regular', Arial, Helvetica, sans-serif;
+
+}
+
+.main-wrapper {
+    width: 600px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    display: block;
+    text-decoration: none;
+    border-left: 5px;
+    color: #6c6767;
+    border-right: 0px;
+    border-top: 0px;
+    padding-left: 10px;
+}
+
+
+
+.img{
+    background-image: url("IMG3.jpg");
+
+
+}
+
+h2, p, ul{
+    margin-left: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
